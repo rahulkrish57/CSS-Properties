@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  height: 400px;
+  color: green;
+  font-size: 60px;
+ }
+.big-img {
+  background: url("./big.jpg");
+  /* background-repeat: round; */
+  background-size: cover;
+}
+.small-img {
+  border: 5px solid red;
+  background: url("./small.jpg");
+  background-repeat: no-repeat;
+  background-repeat: repeat;
+  background-position: center;
+  background-position: bottom;
+  background-position: left;
+  background-position: right;
+  background-position: top;
+  background-position: 20% 50%; /* X-axis Y-axis */
+}
+.folder-img {
+  background: url("./img/folder-img.jpg");
+  /* background-repeat: round; */
+  /* background-size: cover; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
