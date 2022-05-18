@@ -1,4 +1,2 @@
 # CSS Box Model
-  _PADDING
-  _MARGIN
-  _BORDER
+  1. PADDING  2. MARGIN  3. BORDER
