@@ -1,4 +1,4 @@
 # CSS Box Model
-  PADDING
-  MARGIN
-  BORDER
+  _PADDING
+  _MARGIN
+  _BORDER
