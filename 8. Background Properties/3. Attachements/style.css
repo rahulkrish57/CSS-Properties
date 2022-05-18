@@ -1,21 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS Tutorial</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="big-img">
-      <h1>I'M BIG IMAGE</h1>
-    </div>
-    <div class="small-img">
-      <h1>I'M SMALL IMAGE</h1>
-    </div>
-    <div class="folder-img">
-      <h1>I'M FOLDER IMAGE</h1>
-    </div>
-  </body>
-</html>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  /* height: 400px; */
+  min-height: 100vh;
+  color: green;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.big-img {
+  background: url("./big.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.small-img {
+  border: 5px solid red;
+  background: url("./img/folder-img.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-attachment: fixed;
+}
+.folder-img {
+  background: url("./big.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
