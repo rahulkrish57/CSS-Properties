@@ -23,4 +23,6 @@
     both - The element is pushed below both left and right floated elements
     inherit - The element inherits the clear value from its parent
     
-    When clearing floats, you should match the clear to the float: If an element is floated to the left, then you should clear to the left. Your floated element will continue to float, but the cleared element will appear below it on the web page.
+    When clearing floats, you should match the clear to the float: If an element is floated to the left,
+    then you should clear to the left. Your floated element will continue to float, but
+    the cleared element will appear below it on the web page.
