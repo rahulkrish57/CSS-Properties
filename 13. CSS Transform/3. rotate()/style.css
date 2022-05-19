@@ -1,0 +1,19 @@
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+.one {
+  background: red;
+  /* transform: rotateX(90deg); */
+}
+.two {
+  background: green;
+  transform: rotateZ(45deg);
+  transform: rotate(45deg);
+  
+}
+.three {
+  background: blue;
+  transform: rotateY(162deg);
+}
