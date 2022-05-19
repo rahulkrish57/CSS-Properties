@@ -1,5 +1,5 @@
 # static
-tatic It is the default position value for the element. Under static position, elements positioned according to the normal flow of the page.
+static It is the default position value for the element. Under static position, elements positioned according to the normal flow of the page.
 #### Note:
  left, right, top, and bottom properties will not affect if position is static. It is default position. 
 
