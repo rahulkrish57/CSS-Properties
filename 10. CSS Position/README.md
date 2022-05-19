@@ -1,5 +1,5 @@
 # static
-static It is the default position value for the element. Under static position, elements positioned according to the normal flow of the page.
+Static It is the default position value for the element. Under static position, elements positioned according to the normal flow of the page.
 #### Note:
  left, right, top, and bottom properties will not affect if position is static.
 
@@ -7,7 +7,7 @@ static It is the default position value for the element. Under static position, 
 Relative In this case, the element remains in the normal flow of the document but left, right, top, and bottom affects. Elements get shifted from their original position in the document creating vacant space and other elements may adjust themselves according to the vacant space left by the element.
 
 # absolute
-absolute Absolute elements do not follow the normal flow document instead they position themselves relative to the closest positioned ancestor. Its final position is determined using the top, bottom,  left and right.
+Absolute elements do not follow the normal flow document instead they position themselves relative to the closest positioned ancestor. Its final position is determined using the top, bottom,  left and right.
 #### Note:
 The positioned element means element having position property other than static..
 
