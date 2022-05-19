@@ -1,7 +1,7 @@
 # static
 static It is the default position value for the element. Under static position, elements positioned according to the normal flow of the page.
 #### Note:
- left, right, top, and bottom properties will not affect if position is static. It is default position. 
+ left, right, top, and bottom properties will not affect if position is static.
 
 # relative
 Relative In this case, the element remains in the normal flow of the document but left, right, top, and bottom affects. Elements get shifted from their original position in the document creating vacant space and other elements may adjust themselves according to the vacant space left by the element.
