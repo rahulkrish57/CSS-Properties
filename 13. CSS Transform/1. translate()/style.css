@@ -1,0 +1,19 @@
+div {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+  }
+  .one {
+    background: red;
+    transform: translateX(50%); /*50% is the half the width of div i.e., 150px*/
+  }
+  .two {
+    background: green;
+    transform: translateY(30px);
+  }
+  .three {
+    background: blue;
+    /* transform: translateX(75px); */
+    transform: translate(200px, -30px); /*translate(X-value, Y-value)*/
+  }
+  
