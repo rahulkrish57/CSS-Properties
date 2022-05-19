@@ -1,0 +1,4 @@
+# Descendant
+Descendant selector is used to select all the elements which are child of the element (not a specific element). It select the elements inside the elements i.e it combines two selectors such that elements matched by the second selector are selected if they have an ancestor element matching the first selector.
+# Child
+Child Selector is used to match all the elements which are child of a specified element. It gives the relation between two elements. The element > element selector selects those elements which are the children of specific parent. The operand on the left side of > is the parent and the operand on the right is the children element.
