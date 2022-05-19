@@ -1,4 +1,3 @@
-# CSS-Properties
 # CSS Box Model
 #### Padding
 #### Margin
