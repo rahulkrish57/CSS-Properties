@@ -1,0 +1,21 @@
+* {
+  margin: 15px;
+  text-align: center;
+}
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+.one {
+  background: red;
+  transform: skewX(-20deg);
+}
+.two {
+  background: green;
+  transform: skewY(-20deg);
+}
+.three {
+  background: blue;
+  transform: skew(20deg);
+}
