@@ -1,21 +1,21 @@
-div{
-    border: 3px solid red;
-    background: yellow;
-    margin-top: 40px;
-    position: static;
+div {
+  border: 3px solid red;
+  background: yellow;
+  margin-top: 40px;
+  position: static;
 }
-.one{
-    background: blue;
-    position: relative;
-    /* top: 50px; */
-    /* left: 20rem; */
-    right: 50%;
-    bottom: 30px;
+.one {
+  background: blue;
+  position: relative;
+  /* top: 50px; */
+  /* left: 20rem; */
+  right: 50%;
+  bottom: 30px;
 }
-.two{
-    background: green;
+.two {
+  background: green;
 }
-.special{
-    background: lightcoral;
-    font-size: 20px;
+.special {
+  background: lightcoral;
+  font-size: 20px;
 }
