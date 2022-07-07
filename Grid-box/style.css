@@ -1,0 +1,46 @@
+.container{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 100px 200px; */
+    grid-auto-rows: 100px;
+    /* grid-gap: 10px; */
+    /* grid-column-gap: 20px; */
+    grid-template-areas: "one one one";
+}
+.box{
+    border: 2px solid blue;
+    padding: 5px;
+    margin: 1px;
+    color: white;
+    /* background-color: blue; */
+}
+.box:nth-child(odd){
+    border: 1px solid teal;
+    background-color: teal;
+}
+.box:nth-child(even){
+    border: 1px solid rgb(8, 175, 175);
+    background-color: rgb(8, 175, 175);
+}
+/* .one{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.nine {
+    grid-column: span 3;
+}
+.six{
+    grid-row: span 2;
+} */
+
+
+.one{
+    grid-column: 2/4
+}
+.two{
+    grid-row: 1/3
+}
+.nine{
+    grid-row: 3/5
+}
